@@ -1,0 +1,64 @@
+/* 共通処理 */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 20px;
+    top: 0;
+}
+
+body {
+    background-color: #c4c4c4;
+    margin: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/* カード */
+
+.card {
+    background-color: #ffffff;
+    padding: 8px;
+    max-width: max-content;
+}
+
+.card__img-top {
+    width: 288px;
+    height: 182px;
+    margin-bottom: 10px;
+}
+
+.card__title,
+.card__description {
+    overflow-wrap: anywhere;
+}
+
+.card__title {
+    color: #282828;
+    font-size: 14px;
+}
+
+.card__description {
+    color: #282828;
+    font-size: 12px;
+}
+
+
+
+
+
+
